@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title>Workout Routine</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script></head>
@@ -13,75 +13,31 @@
   
   <body>
 
-  <section class="colored-section" id="title">
-    <div class="container-fluid">
-
-    <!-- Nav Bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> 
-          <a class="navbar-brand" href="index.html">Workout page</a>
-          <ul class="navbar-nav ms auto" >
-            <li class="nav-item">
-              <a class="nav-link" href="" > Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="" > Plans</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="" > Contact</a>
-            </li>
-          </ul>
-        </div>
+<section class="main-navbar">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Workout Routines</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+      <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+      <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+      </ul>
+      </div>
+      </div>
       </nav>
 
-
-
-
-    <!-- Title -->
-<div class="row">
-    <div class="col-lg-6">
-        <h1 class="top-heading">The one stop shop for all your workout needs.</h1>
-        <button type="button" class="btn btn-outline-dark btn-lg">Download</button>
-    </div>
-    <div class="col-lg-6">
-        <img src="images/Flexibility.jpg" alt="header-image">
-    </div>
-</div>
-
-</div> 
   </section>
-
-
-  <!-- Features -->
-
-  <section class="white-section" id="features">
-
-    <div class="container-fluid">
-    <div class="row">
-    <div class="feature-box col-lg-4">
-      <i class="fa fa-check-circle fa-4x"></i>
-      <h3 class="feature-title">Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
-    </div>
-    <div class="feature-box col-lg-4">
-      <i class="fa fa-bullseye fa-4x" aria-hidden="true"></i>
-      <h3 class="feature-title">Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-    </div>
-
-    <div class="feature-box col-lg-4">
-      <i class="fa fa-heart fa-4x"></i>
-      <h3 class="feature-title">Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
-    </div>
-  </div>
-</div>
-  </section>
-
-  </div> 
 
   <!-- Testimonials -->
 
@@ -90,16 +46,31 @@
     <div class="carousel-inner">
       <div class="carousel-item active container-fluid">
         <h2 class="testimonial-text">10 minute Flexibilty Workout</h2>
-        <img class="carousel-img" src="images/fast-flexibility.jpg" class="d-block w-100" alt="...">
+        <button class="btn" name="10-min-flexibility"><img class="carousel-img" src="images/image1-resized.jpg" class="d-block w-100" alt="..."  ></button>
+        <h3 class= "10-min-flexibility-description"> This is a 10 min flexibilty workout</h3>
       </div>
+      
       <div class="carousel-item container-fluid">
         <h2 class= "testimonial-text">Flexibilty Workout</h2>
-        <img class="carousel-img" src="images/Flexibility.jpg" class="d-block w-100" alt="...">
+        <button class="btn" name="full-flexibilty"><img class="carousel-img" src="images/image2-resized.jpg" class="d-block w-100" alt="..." ></button>
+        <h3 class= "full-flexibilty-description"> This is a full flexibilty workout</h3>
       </div>
       <div class="carousel-item container-fluid">
         <h2 class= "testimonial-text">Mobility workout</h2>
-        <img class="carousel-img" src="images/mobility.jpg" class="d-block w-100" alt="...">
+        <button class="btn" name="mobility"><img class="carousel-img" src="images/image3-resized.jpg" class="d-block w-100" alt="..." ></button>
+          <h3 class= "full-mobility-description"> This is a full mobility workout</h3>
       </div>
+      <div class="carousel-item container-fluid">
+        <h2 class= "testimonial-text">Upper Workout</h2>
+        <button class="btn" name="upper"><img class="carousel-img" src="images/image4-resized.jpg" class="d-block w-100" alt="..." ></button>
+          <h3 class= "upper-description">This is a upper body workout</h3>
+      </div>
+      <div class="carousel-item container-fluid">
+        <h2 class= "testimonial-text">Lower workout</h2>
+        <button class="btn" name="lower"><img class="carousel-img" src="images/image5-resized.jpg" class="d-block w-100" alt="..." ></button>
+        <h3 class= "lower-description">This is a lower body workout</h3>
+      </div>
+
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -112,91 +83,129 @@
   </div>
   </section>
 
-  <!-- Press -->
+<section class="colored-section" id="lower">
 
-  <section class="colored-section" id="press">
-    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+    <div id="testimonial-carousel1" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Squats</h2>
+          <button class="btn" name="squats"><img class="carousel-img" src="images/barbell-full-squat.gif" class="d-block w-100" alt="..."  ></button>
+          <h3 class= "squats-description"> Do 4 sets of 10 reps. This is how to do the exercise</h3>
+        </div>
+        
+        <div class="carousel-item container-fluid">
+          <h2 class= "testimonial-text">Leg Press</h2>
+          <button class="btn" name="leg-press"><img class="carousel-img" src="images/leg-press.gif" class="d-block w-100" alt="..." ></button>
+          <h3 class= "leg-press-decription"> Do 4 sets of 10 reps. This is how to do the exercise</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class= "testimonial-text">Seated Leg Curls</h2>
+          <button class="btn" name="leg-extension"><img class="carousel-img" src="images/leg-extension.gif" class="d-block w-100" alt="..." ></button>
+            <h3 class= "leg-extension-description"> Do 4 sets of 10 reps. This is how to do the exercise</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class= "testimonial-text">Hamstring extensions</h2>
+          <button class="btn" name="hamstring-extension"><img class="carousel-img" src="images/seated-leg-curl.gif" class="d-block w-100" alt="..." ></button>
+            <h3 class= "hamstring-extension">Do 4 sets of 10 reps. This is how to do the exercise</h3>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class= "testimonial-text">Calf raises</h2>
+          <button class="btn" name="calf-raises"><img class="carousel-img" src="images/standing-calf-raise.gif" class="d-block w-100" alt="..." ></button>
+          <h3 class= "calf-raises">Do 4 sets of 10 reps. This is how to do the exercise</h3>
+        </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel1" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel1" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
 
-  </section>
+<section class="colored-section" id="squats">
+  <div class="row align-center">
+    <div class="small-12 medium-10 large-7 columns">
+        <div class="post-content">
+            <h3>Four key components to the perfect squat</h3>
+<p>The squat is a simple, functional exercise that, when done properly, can strengthen your low back, glutes and quads. So what are the key components of a perfect squat?</p>
+<p>The squat is a key movement that forms the foundation of normal human movement and athletic development. It is also essential for most high-intensity interval training (HIIT) sessions as so many exercises require that we squat in one way or another. Squats might be body weight, barbell-weighted, single leg, plyometric or on an uneven surface, but getting your technique right is the first step towards getting through the session without injury and maximising the results that you get.</p>
+<p>The squat is how children go from crawling to walking and how parents bend down to scoop up that same toddler before they run into trouble. It is also how a grandparent will get in and out of a seated position safely. It is an innate movement pattern, and one that should&nbsp;be carried out regularly. For this reason, learning to squat correctly is an investment that will pay long term dividends.</p>
+<h4>1. Start with your hips</h4>
+<p>The first movement of a squat should always be pushing your hips back behind you. From a tall starting position (feet hip to shoulder width apart, 80% of your weight on your heels), slide you butt backwards as though you were sitting down on a low chair.</p>
+<p>Don’t be afraid to let your trunk angle forward (see photo).</p>
+<p><img class="alignnone wp-image-216" src="https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/11/Squat-tech-hips-e1512032151571.jpg" alt="" width="248" height="352"></p>
+<h4>2.&nbsp;Knees over ankles</h4>
+<p>In a perfect squat, your shins should stay near vertical and ankles should move very little. Picture an imaginary line going from your toes vertically upwards. Your knees should not cross this line. If they do, they are likely to undergo unnecessary stress and result in injury.</p>
+<p>Rather, try to achieve more depth by pushing your butt and hips further backwards.</p>
+<p><img loading="lazy" class="alignnone wp-image-222 size-full" src="https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-knees.jpg" alt="An poor squat by Dave Dawes" width="1292" height="792" srcset="https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-knees.jpg 1292w, https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-knees-768x471.jpg 768w, https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-knees-1024x628.jpg 1024w, https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-knees-600x368.jpg 600w" sizes="(max-width: 1292px) 100vw, 1292px"></p>
+<h4>3. Keep your low back neutral</h4>
+<p>This is really important! Even more important if you are carrying weight. Your low back should remain neutral the whole way through your squat (ie with a very light curve in it).</p>
+<p>As you lower down, maintain that neutral curve and if you (or your trainer) notice that your low back starts to slump towards the bottom of the movement, then come back up.</p>
+<p>When you first start squatting, you might only be able to get a quarter or half way down into a squat before losing control of the low back. <u>This is absolutely fine</u> and it will definitely improve with more careful training, but don’t push it too far in the early days.</p>
+<p><img loading="lazy" class="alignnone wp-image-225 size-full" src="https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-neutral-Lx.jpeg" alt="The perfect squat by Dave Dawes" width="1234" height="766" srcset="https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-neutral-Lx.jpeg 1234w, https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-neutral-Lx-768x477.jpeg 768w, https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-neutral-Lx-1024x636.jpeg 1024w, https://subiaco-physiotherapy.com.au/wp-content/uploads/2017/12/Squat-tech-neutral-Lx-600x372.jpeg 600w" sizes="(max-width: 1234px) 100vw, 1234px"></p>
+<h4>4. Maintain width between your knees</h4>
+<p>Ideally, your knees should remain in line with your second and third toes as you lower down into the squat position. If your knees start to roll into the middle you can suffer from excessive stress on the inside of the knee caps (otherwise known as patellofemoral joint syndrome) a painful condition which can become very limiting. If you catch yourself doing this on one (or both) sides, try to gently push the outside your knees towards the wall on either side.</p>
+<p>Again, if you can’t control your knees the whole way through a squat, you are better off just doing a partial range version of the movement. Depth is not everything! You are far better off performing a good, well-controlled half or three-quarter squat than a poorly controlled deep squat.&nbsp;Following these basic principles should keep your low back, hips and knees in good health as you chase down those fitness goals.</p>
+<p>Best of luck with your training!</p>
+              
+        </div>
+         
+<footer class="article-tags entry-footer">
+</footer>
 
+ 
+        </div>
+</div>
+</section>
 
-  <!-- Pricing -->
-
-  <section class="white-section" id="pricing">
-
-    <h2 class="section-headings">A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-<div class="row">
-
-  <div class="pricing-column col-lg-4 col-md-6" >
-
-    <div class="card">
-      <div class="card-header">
-        <h3>Chihuahua</h3>
+<section class="colored-section" id="10-min-flexibility">
+  <div id="testimonial-carousel2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active container-fluid">
+        <h2 class="testimonial-text">Seated pigeon pose</h2>
+        <button class="btn" name="squats"><img class="carousel-img" src="images/seated-pigeon-pose.jpg" class="d-block w-100" alt="..."  ></button>
+        <h3 class= "squats-description"> Do 4 sets of 10 reps. This is how to do the exercise</h3>
       </div>
-      <div class="card-body">
-        <h2 class="price-text">Free</h2>
-        <p>5 Matches Per Day</p>
-        <p>10 Messages Per Day</p>
-        <p>Unlimited App Usage</p>
-        <button type="button" class="btn btn-outline-dark btn-block btn-lg">Sign Up</button>
+      
+      <div class="carousel-item container-fluid">
+        <h2 class= "testimonial-text">Leg Press</h2>
+        <button class="btn" name="leg-press"><img class="carousel-img" src="images/leg-press.gif" class="d-block w-100" alt="..." ></button>
+        <h3 class= "leg-press-decription"> Do 4 sets of 10 reps. This is how to do the exercise</h3>
       </div>
-  </div>
+      <div class="carousel-item container-fluid">
+        <h2 class= "testimonial-text">Seated Leg Curls</h2>
+        <button class="btn" name="leg-extension"><img class="carousel-img" src="images/leg-extension.gif" class="d-block w-100" alt="..." ></button>
+          <h3 class= "leg-extension-description"> Do 4 sets of 10 reps. This is how to do the exercise</h3>
+      </div>
+      <div class="carousel-item container-fluid">
+        <h2 class= "testimonial-text">Hamstring extensions</h2>
+        <button class="btn" name="hamstring-extension"><img class="carousel-img" src="images/seated-leg-curl.gif" class="d-block w-100" alt="..." ></button>
+          <h3 class= "hamstring-extension">Do 4 sets of 10 reps. This is how to do the exercise</h3>
+      </div>
+      <div class="carousel-item container-fluid">
+        <h2 class= "testimonial-text">Calf raises</h2>
+        <button class="btn" name="calf-raises"><img class="carousel-img" src="images/standing-calf-raise.gif" class="d-block w-100" alt="..." ></button>
+        <h3 class= "calf-raises">Do 4 sets of 10 reps. This is how to do the exercise</h3>
+      </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel2" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel2" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
 </div>
 
-<div class="pricing-column col-lg-4 col-md-6">
-  <div class="card">
-    <div class="card-header">
-      <h3>Labrador</h3>
-    </div>
-    <div class="card-body">
-      <h2 class="price-text">$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button" class="btn btn-block btn-outline-dark btn-lg">Sign Up</button>
-    </div>
-</div>
-</div>
-
-<div class="pricing-column col-lg-4">
-<div class="card">
-  <div class="card-header">
-    <h3>Mastiff</h3>
-  </div>
-  <div class="card-body">
-    <h2 class="price-text">$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button" class="btn btn-block btn-outline-dark btn-lg">Sign Up</button>
-  </div>
-</div>
-</div>
-</div>
-
-  </section>
+</section>
 
 
-  <!-- Call to Action -->
-
-  <section id="cta">
-
-    <div class="colored-section" class="container-fluid">
-
-    <h3 class="cta-header">Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-block btn-outline-dark btn-lg">Download</button>
-    <button type="button" class="btn btn-block btn-outline-light btn-lg">Download</button>
-  </div>
-  </section>
 
 
-  <!-- Footer -->
 
   <footer class="white-section" id="footer">
     <div class="container-fluid"></div>
@@ -206,9 +215,10 @@
     <i class="footer-icons fa fa-envelope fa" aria-hidden="true"></i>
     <p>© Copyright EoinMcKeever</p>
   </div>
-  </footer>
+  </footer> 
 
-
+  <script src="index.js" charset="utf-8"></script>
+  
 </body>
 
 </html>
