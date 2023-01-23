@@ -63,12 +63,18 @@ h2 h3 h4{
 
 /* title */
 
-#lower{
-  display: none;
+
+
+#squats {
+display: none;
 }
 
-#squats{
-display: none;
+#lower {
+  display: none;
+  }
+
+#short-flexibility {
+  display: none;
 }
 
 /* section{
