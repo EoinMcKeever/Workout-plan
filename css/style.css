@@ -1,5 +1,4 @@
 body {
-/* font-family: "Montserrat"; */
 text-align: center;
     
 } 
@@ -8,14 +7,9 @@ text-align: center;
 h3{
   color: #f96f11;
   display: block;
-  background-color: #722805;
-  /* text-align: center; */
 }
 
-/* * {
-    font-family: Raleway;
-    
-} */
+
 
 .btn{
   align-items: center;
@@ -26,11 +20,6 @@ html {
     background-color: #f96f11;
 }
 
-/* button{
-    background-color:#722805;
-    border: #722805;
-} */
-
 p{
   color:#f96f11;
 }
@@ -39,32 +28,7 @@ h2 h3 h4{
   color:#f96f11;
 }
 
-
-
-/* img {
-    border-radius: 30%;
-    max-width: 40%;
-    height: auto;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    margin: auto;
-} */
-
-/* Headings */
-
-/* .top-heading {
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900px;
-    color: #f96f11;
-
-} */
-
-/* title */
-
-
-
+/* change page selectors */
 #squats {
 display: none;
 }
@@ -89,10 +53,144 @@ display: none;
   display: none;
 }
 
-/* section{
-  background-color: #722805;
-  
-} */
+#upper {
+  display: none;
+}
+
+#seated-pigeon-pose-stretch {
+  display: none;
+}
+
+#piriformis-stretch {
+  display: none;
+}
+
+#butterfly-hip-stretch {
+  display: none;
+}
+
+
+#frog-pose {
+  display: none;
+}
+
+#kneeling-lunge-stretch {
+  display: none;
+}
+
+#lumbar-rotation-stretch {
+  display: none;
+}
+
+#dumbell-press{
+  display: none;
+}
+
+#pullups{
+  display: none;
+}
+
+#shoulder-press{
+  display: none;
+}
+
+#lateral-raises{
+  display: none;
+}
+
+#decline-bench{
+  display: none;
+}
+
+#rows{
+  display: none;
+}
+
+#hyperextensions{
+  display: none;
+}
+
+#mobility-hips{
+  display: none;
+}
+
+#mobility-ankles{
+  display: none;
+}
+
+#mobility-hamstring{
+  display: none;
+}
+
+#mobility-shoulders{
+  display: none;
+}
+
+#mobility-knees{
+  display: none;
+}
+
+#mobility-knees{
+  display: none;
+}
+
+#quad-stretchs{
+  display: none;
+}
+
+#hamstring-stretchs{
+  display: none;
+}
+
+#back-stretchs{
+  display: none;
+}
+
+#neck-stretchs{
+  display: none;
+}
+
+#hamstring-stretch{
+  display: none;
+}
+
+#quad-pull{
+  display: none;
+}
+
+#upper-back-release{
+  display: none;
+}
+
+#wall-stretch{
+  display: none;
+}
+
+#neck-diagonal-pull{
+  display: none;
+}
+
+#neck-side-pull{
+  display: none;
+}
+
+#leg-press{
+  display: none;
+}
+
+#leg-extension{
+  display: none;
+}
+
+#hamstring-extension{
+  display: none;
+}
+
+#calf-raises{
+  display: none;
+}
+
+
 
 .container-fluid {
     padding: 2% 15%;
@@ -126,19 +224,6 @@ display: none;
     
 }
 
-/* press */
-
-/* .section-headings {
-    font-size: 3rem;
-    line-height: 1.5;
-    color: rgb(0, 0, 0);
-    color: #f96f11;
-} */
-
-/*cta*/
-
-/*footer*/
- 
 .footer-icons{
     margin:15px 15px;
     padding-top: 250px; 
